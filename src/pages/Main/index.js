@@ -4,5 +4,5 @@ import { Text } from 'react-native';
 // import { Container } from './styles';
 
 export default function Main() {
-  return <Text>Main</Text>;
+  return <Text style={{ color: 'white' }}>Main</Text>;
 }
