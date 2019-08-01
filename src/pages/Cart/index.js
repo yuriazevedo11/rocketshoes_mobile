@@ -1,8 +1,12 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-// import { Container } from './styles';
+import { Container } from '../../components/Container';
 
 export default function Cart() {
-  return <Text style={{ color: 'white' }}>Cart</Text>;
+  return (
+    <Container>
+      <Text style={{ color: 'white' }}>Cart</Text>
+    </Container>
+  );
 }
