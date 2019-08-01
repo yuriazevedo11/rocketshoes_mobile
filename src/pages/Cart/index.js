@@ -3,6 +3,6 @@ import { Text } from 'react-native';
 
 // import { Container } from './styles';
 
-export default function Main() {
-  return <Text>Main</Text>;
+export default function Cart() {
+  return <Text>Cart</Text>;
 }
