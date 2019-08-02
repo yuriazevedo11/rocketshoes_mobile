@@ -13,6 +13,7 @@ import {
   ProductAmountText,
   AddButtonText,
 } from './styles';
+
 import colors from '../../styles/colors';
 
 export default class Main extends Component {

@@ -6,18 +6,21 @@ import logo from '../../assets/logo.png';
 export const Container = styled.View`
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 20px;
 `;
 
+export const LogoNav = styled.TouchableOpacity``;
+
 export const Logo = styled.Image.attrs({
   source: logo,
-  resizeMode: 'cover',
+  resizeMode: 'contain',
   aspectRatio: 277 / 36,
 })`
-  width: 180px;
+  max-width: 180px;
 `;
 
-export const IconWrapper = styled.TouchableOpacity`
+export const CartNav = styled.TouchableOpacity`
   flex-direction: row;
   justify-content: flex-end;
   height: 24px;
